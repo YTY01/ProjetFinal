@@ -1,0 +1,31 @@
+.cart-page-table {
+    border: solid whitesmoke 1px;
+    width: 95%;
+    margin: 0 2.5%;
+    padding: 1% 0 1% 2.5%;
+}
+
+.cart-page-table-header {
+    display: flex;
+    width: 100%;
+}
+
+.cart-page-col-lg {
+    width: 70%;
+    text-align: left;
+}
+
+.cart-page-col-sm {
+    width: 15%;
+    text-align: center;
+}
+
+.cart-page_checkout-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1% 2.5%;
+}
+
+.cart-button {
+    margin: 5px;
+}

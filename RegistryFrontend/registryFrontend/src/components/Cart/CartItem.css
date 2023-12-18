@@ -1,0 +1,24 @@
+.cart-item_price-onsale{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    color: gray;
+    opacity: .75;
+    padding-right: 5%;
+}
+
+.cart-item_price {
+    text-align: center;
+}
+
+.cart-item_qty {
+    text-align: center;
+}
+
+.cart-item_produit {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item_nom {
+    margin-left: 5%;
+}

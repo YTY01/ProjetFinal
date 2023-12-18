@@ -1,0 +1,54 @@
+.product-card-price-regular{
+
+}
+
+.product-card-price-onsale{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    color: gray;
+    opacity: .75;
+    padding-right: 5%;
+}
+
+.product-card-price-onsale-newprice{
+    font-weight: bold;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    border: 1px transparent solid;
+    background-color: #334756;
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+.product-card-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-card-price_tag{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.product-card-add{
+    width: 50%;
+    align-self: center;
+    margin-bottom: 5%;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: #ff4c29;
+    color: whitesmoke;
+}
+
+.product-card-add:hover{
+    filter: brightness(0.75);
+    transition: filter 0.2s ease-in-out;
+}

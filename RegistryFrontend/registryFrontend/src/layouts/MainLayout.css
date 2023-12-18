@@ -1,0 +1,22 @@
+.layout-header {
+    display: flex;
+    padding: 1%;
+    width: 100%;
+}
+
+.button {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: #ff4c29;
+    border-radius: 10px;
+}
+
+.button:hover {
+    filter: brightness(0.75);
+    transition: filter 0.2s ease-in-out;
+}
+
+.header-button {
+    margin: 5px;
+}
